@@ -3,6 +3,7 @@
 
 //juw
 //Bin Chen: 28/05/2015
+//Bo Qiu£º08/2019
 /*
 
          This program solves a cubic equation to calculate
@@ -99,7 +100,8 @@
         Jan 14, 1999 Updated the cubic solutions for photosynthesis.  There are
         times when the restriction that R^2 < Q^3 is violated.  I therefore need
         alternative algorithms to solve for the correct root.
- 
+
+        Solar-induced chlorophyll fluorescence at the leaf level was simulated. 
 ==============================================================*/
 
 void photosynthesis(lai_leaf_p,temp_leaf_p,rad_leaf,e_air,g_lb_w,vc_opt,f_soilwater,b_h2o,m_h2o,cii,temp_leaf_c,LH_leaf,Gs_w,aphoto,ci,xSIF)
@@ -507,7 +509,8 @@ OUTDAT:
 /*----------------------------------------------------------------*/
  double SIF_y (double xxn)
 /*----------------------------------------------------------------*/
-/* this function computes the SIFy 
+/* this function computes the solar-induced fluorescence 
+   at the leaf level, by Bo Qiu, 08/2015 
  *  *
  *   *       ----------------------------------------------------------------*/
  {

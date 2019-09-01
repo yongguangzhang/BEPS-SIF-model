@@ -3,6 +3,10 @@ Program:      inter_prg.c
 --------
 Description:  a inter-program between main program and modules 
 Last update:	July, 2015
+
+Description:  Solar-induced chlorophyll fluorescence at far-red band module
+              was coupled.  Bo Qiu
+Last update:	Aug, 2019.
 *****************************************************************************/
 
 #include "beps.h"
